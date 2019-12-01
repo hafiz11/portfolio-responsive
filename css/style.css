@@ -1,0 +1,752 @@
+@font-face {
+    font-family: "Impact";
+    src: url("../fonts/custom_fonts/impact.eot");
+    url("../fonts/custom_fonts/impact.otf"),
+    url("../fonts/custom_fonts/impact.ttf")
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap');
+
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: "Impact";
+*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/************ header Navbar section start ************/
+
+.header_section {
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header_section .row {
+    height: 100vh;
+}
+
+p {
+    margin-bottom: 0;
+}
+/*
+.navbar-toggler span{
+    color: #40afcc;
+}
+*/
+.navbar-dark .navbar-toggler {
+border-color: rgb(64, 175, 204)!important;
+    border-radius: 0!important;
+    color: #40afcc;
+}
+.navbar-dark .navbar-nav .nav-link {
+    text-transform: uppercase;
+    position: relative;
+    padding: 35px 18px;
+    font-weight: 600;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #fff;
+    background-color: #40afcc40;
+}
+
+.navbar-dark .navbar-nav .active {
+    color: #fff;
+    background-color: #40afcc40;
+}
+
+.navbar-dark .navbar-nav .nav-link::after {
+    content: "";
+    width: 100%;
+    height: 0px;
+    background-color: #40afcc;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover::after {
+    height: 10px;
+}
+
+.navbar-dark .navbar-nav .active::after {
+    height: 10px;
+}
+
+.navbar-toggler {
+    color: #40afcc;
+}
+
+/************ header Navbar section end ************/
+
+
+/************ header banner section start ************/
+
+.banner_content {
+    color: #fff;
+    text-align: center;
+}
+
+.banner_content h1 {}
+
+.banner_content span {
+    color: #40afcc;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.banner_content p {
+    line-height: 2;
+    padding: 20px 0;
+
+}
+
+.btn_download {
+    color: #fff;
+    border: 2px solid #40afcc;
+    margin-right: 10px;
+    border-bottom-left-radius: 30px;
+    padding: 10px 30px;
+}
+
+.btn_portfolio {
+    color: #fff;
+    border: 2px solid #40afcc;
+    margin-left: 10px;
+    border-bottom-right-radius: 30px;
+    padding: 10px 30px;
+}
+
+.btn_download:hover {
+    background: #40afcc;
+    color: #fff;
+}
+
+.btn_portfolio:hover {
+    background: #40afcc;
+    color: #fff;
+}
+
+.header_section .social {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translatey(-50%);
+    text-align: center;
+}
+
+.header_section .social a {
+    color: #929292;
+    background: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    line-height: 33px;
+    margin-top: 10px;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+}
+
+.header_section .social a:hover {
+    color: #fff;
+    background: #40afcc;
+}
+
+.header_section .social span {
+    transform: rotate(-90deg);
+    display: block;
+    right: 40px;
+    margin-top: 40px;
+    color: #fff;
+}
+
+.header_section .social_mobile {
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translatex(-50%);
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.header_section .social_mobile a {
+    color: #929292;
+    background: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    line-height: 33px;
+    margin-left: 10px;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+}
+
+.header_section .social_mobile a:hover {
+    color: #fff;
+    background: #40afcc;
+}
+
+.header_section .social_mobile span {
+    display: block;
+    color: #fff;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+/************ header Banner section end ************/
+
+/************ About section start ************/
+
+.about_section .heading h1 {
+    color: #40afcc;
+    font-size: 70px;
+    font-weight: 600;
+    position: relative;
+    z-index: 1;
+    text-transform: uppercase;
+    padding-bottom: 45px;
+}
+
+.about_section .heading span {
+    text-transform: uppercase;
+    font-family: "Impact";
+    color: #f7f7f7;
+    font-size: 100px;
+    font-weight: 600;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+/************ About section end ************/
+
+/************ Global Heading section start ************/
+.heading h1 {
+    color: #40afcc;
+    font-size: 70px;
+    font-weight: 600;
+    position: relative;
+    z-index: 1;
+    text-transform: uppercase;
+}
+
+.heading span {
+    text-transform: uppercase;
+    font-family: "Impact";
+    color: #f7f7f7;
+    font-size: 100px;
+    font-weight: 600;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translatex(-50%);
+    width: 100%;
+    margin-top: -20px;
+
+}
+
+/************ Global Heading section end ************/
+
+/************ Skills section start ************/
+
+.skill_section h4 {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 50px 0 0px;
+    color: #40afcc;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.front {
+    position: relative;
+}
+
+.front a {
+    position: absolute;
+    left: 0;
+    text-align: center;
+    display: block;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-weight: 600;
+    z-index: 1;
+    text-transform: uppercase;
+    line-height: 2;
+    transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    opacity: 0;
+}
+
+.front:hover a {
+    opacity: 1;
+    text-decoration: none;
+}
+
+.front img {
+    width: 100%;
+}
+
+.front::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #323330f2;
+    position: absolute;
+    transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    opacity: 0;
+    transform: scale(0.3);
+    -webkit-transform: scale(0.3);
+    -moz-transform: scale(0.3);
+}
+
+.front:hover::after {
+    opacity: 1;
+    transform: scale(0.98);
+    -webkit-transform: scale(0.98);
+    -moz-transform: scale(0.98);
+}
+
+.back {
+    position: relative;
+}
+
+.back a {
+    position: absolute;
+    left: 0;
+    text-align: center;
+    display: block;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #000;
+    font-weight: 600;
+    z-index: 1;
+    text-transform: uppercase;
+    line-height: 2;
+    transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    opacity: 0;
+}
+
+.back:hover a {
+    opacity: 1;
+    text-decoration: none;
+}
+
+.back img {
+    width: 100%;
+}
+
+.back::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #f0db4ff2;
+    position: absolute;
+    transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    opacity: 0;
+    transform: scale(0.3);
+    -webkit-transform: scale(0.3);
+    -moz-transform: scale(0.3);
+}
+
+.back:hover::after {
+    opacity: 1;
+    transform: scale(0.98);
+    -webkit-transform: scale(0.98);
+    -moz-transform: scale(0.98);
+}
+
+.graphic {
+    position: relative;
+}
+
+.graphic a {
+    position: absolute;
+    left: 0;
+    text-align: center;
+    display: block;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-weight: 600;
+    z-index: 1;
+    text-transform: uppercase;
+    line-height: 2;
+    transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    opacity: 0;
+}
+
+.graphic:hover a {
+    opacity: 1;
+    text-decoration: none;
+}
+
+.graphic img {
+    width: 100%;
+}
+
+.graphic::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #39065af2;
+    position: absolute;
+    transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    opacity: 0;
+    transform: scale(0.3);
+    -webkit-transform: scale(0.3);
+    -moz-transform: scale(0.3);
+}
+
+.graphic:hover::after {
+    opacity: 1;
+    transform: scale(0.98);
+    -webkit-transform: scale(0.98);
+    -moz-transform: scale(0.98);
+}
+
+/************ Skills section end ************/
+
+/************ Resume section start ************/
+
+h5 {
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 600;
+    color: #aaaaaa;
+    margin: 30px 0;
+}
+
+.resume_box {
+    position: relative;
+    padding: 0 40px 32px;
+}
+
+.resume_box::after {
+    content: "";
+    width: 2px;
+    height: 100%;
+    background: #40afcc;
+    top: 0;
+    left: 9px;
+    position: absolute;
+
+}
+
+.resume_box:hover::after {}
+
+.resume_box::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: #40afcc;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    position: absolute;
+    border: 2px solid #40afcc;
+    z-index: 1;
+    border: 2px solid #40afcc;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+.resume_box:hover::before {
+    background: #fff;
+    box-shadow: 0 0 5px #40afcc;
+}
+
+.resume_box .resume {
+    padding: 0 0px 15px 0px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 5s;
+}
+
+.resume_box:hover .resume {
+    background-image: url(../img/education_img1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    box-shadow: 0 2px 6px #40afcc;
+    padding: 0 0px 15px 25px;
+}
+
+.resume_box .resume span {
+    border: 2px solid;
+    color: #242424;
+    font-size: 22px;
+    padding: 4px 10px;
+    border-bottom-right-radius: 20px;
+    display: inline-block;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 5s;
+}
+
+.resume_box:hover .resume span {
+    color: #40afcc;
+}
+
+.resume_box .resume h3 {
+    color: #242424;
+    font-size: 19px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 15px 0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 5s;
+}
+
+.resume_box:hover .resume h3 {
+    color: #40afcc;
+}
+
+.resume_box .resume h6 {
+    color: #242424;
+    font-size: 18px;
+}
+
+.resume_box .resume p {
+    color: #242424;
+    font-size: 16px;
+    font-weight: 100;
+    max-width: 315px;
+}
+
+.nav-tabs {
+    border-bottom: 0px solid;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-link:hover,
+.nav-tabs .nav-item.show .nav-link {
+    color: #40afcc;
+    background-color: #fff;
+    border-color: #40afcc;
+    border-bottom-right-radius: 20px;
+    
+}
+.nav-tabs .nav-link{
+    padding: 1px 12px;
+    margin-right: 3px;
+}
+.thumbnail img {
+    width: 100%;
+}
+
+.nav-tabs .nav-link a {
+    color: #929292;
+}
+
+/************ Resume section end ************/
+
+/************ Project section start ************/
+
+.project {
+    background-image: url(../img/question.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom-right-radius: 50px;
+    padding: 50px 25px;
+    align-items: center;
+    margin: 4px
+}
+
+.project h3 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 40px;
+
+}
+
+.project h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.modal_question {
+    background: #fff;
+    padding: 10px 20px;
+    border-radius: 0;
+    border-bottom-right-radius: 25px;
+    text-transform: uppercase;
+    color: #40afcc;
+    font-weight: 600;
+    border: 2px solid #fff;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+.modal_question:hover {
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+/************ Project section end ************/
+
+/************ Contact section start ************/
+input,
+textarea {
+    border: 1px solid #40afcc;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.name,
+.email {
+    width: 48%;
+}
+input:focus, textarea:focus{
+    color: #40afcc;
+}
+input[type="submit"] {
+    display: block;
+    text-align: right;
+    margin-left: auto;
+    padding: 10px 40px;
+    background: #40afcc;
+    border-bottom-right-radius: 30px;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.contact_section img {
+    border: 1px solid;
+    margin-top: 20px;
+}
+
+.footer_section {
+    text-align: center;
+    color: #fff;
+    background: #40afcc;
+    padding: 20px 0 20px;
+}
+
+.Bottom_social_section {}
+
+.Bottom_social_section ul {}
+
+/*
+.Bottom_social_section ul li {
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    color: #40afcc;
+    font-size: 30px;
+    font-weight: 600;
+}
+.Bottom_social_section ul li a {
+    font-size: 40px;
+    background: #40afcc;
+    color: #fff;
+    padding: 8px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+*/
+/*
+.Bottom_social_section ul li i {
+    font-size: 90px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+*/
+
+.social_bottom{
+    
+}
+.social_bottom a{
+    text-decoration: none;
+}
+.social_bottom a:hover{
+    
+}
+.social_bottom a ul{
+     justify-content: center;
+    color: #40afcc;
+    background: #f1fcff;
+    border-bottom-right-radius: 40px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 2s;
+}
+.social_bottom a ul:hover{
+    color: #f1fcff;
+    text-decoration: none;
+    background: #40afcc;
+}
+.social_bottom a ul li{
+}
+.social_bottom a ul li i{
+    font-size: 80px;
+}
+.social_bottom a ul li span{
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/************ Contact section end ************/
+
+/************ Footer section start ************/
+.footer_section a {
+    color: #fff;
+}

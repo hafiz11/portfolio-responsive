@@ -1,0 +1,496 @@
+ @media (min-width:1200px) {
+     .header_section .social_mobile {
+         opacity: 0:
+     }
+
+     .header_section .social_mobile {
+         opacity: 0;
+     }
+
+     .btn_question {
+         font-size: 16px;
+     }
+ }
+
+ @media (max-width:1199px) {
+     .heading h1 {
+         font-size: 70px;
+     }
+
+     .heading span {
+         font-size: 75px;
+     }
+
+     .about_section .heading span {
+         font-size: 90px;
+     }
+
+     .header_section .social_mobile {
+         opacity: 0;
+     }
+
+     .project h3 {
+         font-size: 35px;
+     }
+
+     .project h2 {
+         font-size: 35px;
+     }
+
+     .btn_question {
+         font-size: 16px;
+     }
+
+     .name,
+     .email {
+         width: 47.5%;
+     }
+
+     .resume_box .resume h3 {
+         font-size: 20px;
+     }
+
+     .resume_box .resume h6 {
+         font-size: 18px;
+     }
+
+ }
+
+ @media (max-width:991px) {
+     .heading h1 {
+         font-size: 70px;
+     }
+
+     .heading span {
+         font-size: 80px;
+         top: 6px;
+     }
+
+     .contact_section .heading span {
+         font-size: 80px;
+         top: 0;
+     }
+
+     .project h3 {
+         font-size: 30px;
+     }
+
+     .project h2 {
+         font-size: 30px;
+     }
+
+     .btn_question {
+         font-size: 12px;
+     }
+
+     .about_section .heading span {
+         font-size: 70px;
+         top: 0;
+     }
+
+     .about_section .heading h1 {
+         font-size: 60px;
+     }
+
+     .header_section .social_mobile {
+         opacity: 0;
+     }
+
+     .name,
+     .email {
+         width: 48%;
+     }
+
+     .header_section .row {
+         height: 90vh;
+     }
+
+     .navbar-nav {
+         -ms-flex-direction: row;
+         flex-direction: row;
+         list-style: none;
+         justify-content: flex-end;
+     }
+
+     .navbar-dark .navbar-nav .nav-link {
+         padding: 14px 10px;
+     }
+
+     .navbar-dark .navbar-nav .active::after {
+         height: 4px;
+     }
+
+     .navbar-dark .navbar-nav .nav-link:hover::after {
+         height: 4px;
+     }
+
+     .resume_box .resume h3 {
+         font-size: 12px;
+     }
+
+     .resume_box .resume h6 {
+         font-size: 11px;
+     }
+
+     .resume_box .resume p {
+         max-width: 200px;
+         font-size: 10px;
+     }
+
+     .social_bottom a ul li i {
+         font-size: 62px;
+     }
+
+     .social_bottom a ul li span {
+         font-size: 23px;
+     }
+ }
+
+ @media (max-width:767px) {
+
+     .heading h1 {
+         font-size: 55px;
+     }
+
+/*
+     .social_bottom a ul {
+         justify-content: left;
+         width: 40%;
+         margin: 10px auto !important;
+         padding-left: 10px;
+     }
+*/
+    .social_bottom a ul li i {
+         font-size: 55px;
+     }
+
+     .social_bottom a ul li span {
+         font-size: 20px;
+     }
+     .heading span {
+         font-size: 58px;
+         top: 13px;
+     }
+
+     .header_section .social {
+         opacity: 0;
+     }
+
+     .header_section .social_mobile {
+         opacity: 1;
+     }
+
+     .about_section .heading span {
+         top: 0px;
+         font-size: 90px;
+     }
+
+     .about_section .heading h1 {
+         font-size: 55px;
+     }
+
+     .contact_section .heading span {
+         font-size: 63px;
+         top: 4px;
+     }
+
+     .header_section .social_mobile {
+         bottom: 44%;
+     }
+
+     .header_section .row {
+         height: 70vh;
+     }
+
+     .banner_content p {
+         padding: 3px 0;
+         line-height: 1.3;
+     }
+
+     .btn_download {
+         border-bottom-left-radius: 23px;
+         padding: 4px 14px;
+         font-size: 14px;
+         margin-top: 15px;
+     }
+
+     .btn_portfolio {
+         border-bottom-right-radius: 23px;
+         padding: 4px 14px;
+         font-size: 14px;
+         margin-top: 15px;
+     }
+
+     .banner_content span {
+         font-size: 35px;
+     }
+
+     .about_section img {
+         max-width: 70%;
+         margin: auto;
+         display: block;
+     }
+
+     .resume_box .resume h3 {
+         font-size: 20px;
+     }
+
+     .resume_box .resume h6 {
+         font-size: 18px;
+     }
+
+     .resume_box .resume p {
+         max-width: 400px;
+         font-size: 16px;
+     }
+
+ }
+
+ @media (max-width:575px) {
+     .navbar-nav .nav-link {
+         font-size: 13px;
+     }
+    .social_bottom a ul {
+         justify-content: left;
+         width: 40%;
+         margin: 10px auto !important;
+         padding-left: 10px;
+     }
+     .banner_content span {
+         font-size: 30px;
+     }
+
+     .banner_content p {
+         font-size: 10px;
+     }
+
+     .btn_portfolio {
+         padding: 4px 9px;
+         font-size: 9px;
+         border-bottom-right-radius: 16px;
+         margin-top: 15px;
+     }
+
+     .btn_download {
+         padding: 4px 9px;
+         font-size: 9px;
+         border-bottom-left-radius: 16px;
+         margin-top: 15px;
+     }
+
+     .header_section .social_mobile {
+         opacity: 1;
+         bottom: 46%;
+     }
+
+     .header_section .social_mobile a {
+         width: 20px;
+         height: 20px;
+         line-height: 22px;
+         font-size: 13px;
+     }
+
+     .header_section .social_mobile span {
+         margin-top: 2px;
+         font-size: 12px;
+     }
+
+     .about_section .heading h1 {
+         font-size: 50px;
+         margin-top: 12px;
+     }
+
+     .about_section .heading span {
+         font-size: 80px;
+         top: 0px;
+     }
+
+     .heading h1 {
+         font-size: 50px;
+     }
+
+     .heading span {
+         font-size: 39px;
+         margin-top: -1%;
+         top: 0;
+     }
+
+     .skill_section h4 {
+         font-size: 24px;
+     }
+
+     .nav-tabs .nav-link {
+         padding: 0px 10px;
+         font-size: 12px;
+     }
+
+     .project {
+         padding: 10px;
+     }
+
+     .project h3 {
+         font-size: 30px;
+     }
+
+     .project h2 {
+         font-size: 27px;
+     }
+
+     .contact_section .heading span {
+         top: 0;
+         margin-top: -3%;
+     }
+
+     .name,
+     .email {
+         width: 100%;
+         margin-left: 0 !important;
+         margin-right: 0 !important;
+     }
+
+     .resume_box .resume p {
+         max-width: 302px;
+     }
+
+     .resume_box .resume h3 {
+         font-size: 18px;
+     }
+
+     .resume_box .resume h6 {
+         font-size: 17px;
+     }
+
+ }
+
+
+ @media (max-width:440px) {
+     .banner_content h1 {
+         font-size: 20px;
+     }
+
+     .navbar-dark .navbar-nav .nav-link {
+         padding: 14px 4px;
+         font-size: 10px;
+     }
+
+     .banner_content span {
+         font-size: 23px;
+     }
+
+     .header_section .row {
+         height: 50vh;
+     }
+
+     .navbar-dark .navbar-nav .nav-link {
+         padding: 5px 4px;
+         font-size: 10px;
+         margin-top: 3px;
+     }
+
+     .navbar-dark .navbar-nav .active::after {
+         height: 2px;
+     }
+
+     .navbar-dark .navbar-nav .nav-link:hover::after {
+         height: 2px;
+     }
+
+     .header_section .social_mobile {
+         bottom: 60%;
+     }
+
+     .navbar-toggler {
+         font-size: 14px;
+         padding: 5px;
+     }
+
+     .btn_download {
+         margin-bottom: 5px;
+     }
+
+     .btn_portfolio {
+         margin-bottom: 5px;
+     }
+
+     .about_section .heading h1 {
+         font-size: 35px;
+         padding-bottom: 5px;
+     }
+
+     .about_section .heading span {
+         font-size: 50px;
+     }
+
+     .contact_section .heading span {
+         font-size: 43px;
+         top: 0px;
+     }
+
+     .heading h1 {
+         font-size: 30px;
+     }
+
+     input,
+     textarea {
+         padding: 4px;
+     }
+
+     .heading span {
+         font-size: 23px;
+     }
+
+     .resume_box .resume span {
+         font-size: 15px;
+     }
+
+     .resume_box .resume h3 {
+         font-size: 11px;
+     }
+
+     .resume_box .resume p {
+         max-width: 165px;
+         font-size: 10px;
+     }
+
+     .skill_section h4 {
+         font-size: 15px;
+     }
+
+     .resume h3 {
+         font-size: 17px;
+     }
+
+     .resume_box .resume h6 {
+         font-size: 11px;
+     }
+
+     .footer_section p {
+         font-size: 13px;
+     }
+
+     .nav-tabs .nav-link {
+         padding: 0px 4px;
+     }
+
+     .contact_section .heading span {
+         font-size: 32px;
+     }
+
+     .project h3 {
+         font-size: 23px;
+     }
+
+     .project h2 {
+         font-size: 21px;
+     }
+
+     .modal_question {
+         font-size: 11px;
+     }
+    .social_bottom a ul {
+    width: 70%;
+}
+
+
+
+ }
